@@ -1,21 +1,24 @@
 const Contact = () => {
   return (
     <>
+    
       <section
         id="contact-section"
-        className="w-full h-screen bg-zinc-800 flex flex-col pl-3"
+        className="w-full h-screen bg-zinc-800 flex flex-col"
       >
+      <div  className="h-[5vh] w-full bg-blue-600"></div>
         <section className="z-50 font-text2 mt-14">
           <article >
             <h2
               style={{ animation: "appear 2s ease-out" }}
-              class="text-5xl text-center font-semibold font-title2  text-white "
+              class="text-5xl text-start font-semibold font-title2  text-white  pl-3"
             >
               Contacto
             </h2>
+            <div className="w-[80%] h-[2px] bg-blue-500 mt-3"></div>
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-stone-400 mt-6 text-sm  font-title font-medium text-center text-balance xl:text-lg "
+              className="text-stone-400 mt-6 text-sm  font-title font-medium text-start text-balance xl:text-lg pl-3"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
               asperiores dolores nisi. Soluta, quidem. Veritatis eveniet magnam
@@ -32,14 +35,14 @@ const Contact = () => {
                 <input
                   autoComplete="off"
                   placeholder="john@example.com"
-                  className="peer h-10 w-full border-b-2 border-pastel font-title text-white bg-transparent placeholder-transparent focus:outline-none focus:border-primary  lg:text-stone-600 2xl:mt-6"
+                  className="peer h-10 w-full border-b-2 border-pastel font-title text-white bg-transparent placeholder-transparent focus:outline-none focus:border-blue-600  2xl:mt-6"
                   required=""
                   id="email"
                   name="email"
                   type="email"
                 />
                 <label
-                  className=" absolute left-0 -top-3.5 text-gray-800 text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-white peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-500 peer-focus:text-base font-normal lg:text-stone-400 lg:peer-placeholder-shown:text-stone-600 2xl:mt-6"
+                  className=" absolute left-0 -top-3.5  text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-white peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-500 peer-focus:text-base font-normal lg:peer-placeholder-shown:text-stone-600 2xl:mt-6"
                   for="email"
                 >
                   Email 
@@ -49,7 +52,7 @@ const Contact = () => {
                 <input
                   autoComplete="off"
                   placeholder="Password"
-                  className="peer h-10 font-title w-full border-b-2 border-pastel text-white lg:text-stone-600 bg-transparent placeholder-transparent focus:outline-none focus:border-primary "
+                  className="peer h-10 font-title w-full border-b-2 border-pastel text-white lg:text-stone-600 bg-transparent placeholder-transparent focus:outline-none focus:border-blue-600"
                   required=""
                   id="password"
                   name="password"
