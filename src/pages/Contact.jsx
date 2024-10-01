@@ -9,13 +9,13 @@ const Contact = () => {
           <article >
             <h2
               style={{ animation: "appear 2s ease-out" }}
-              class="text-5xl text-center font-semibold font-title2  text-white 2xl:text-[4rem]"
+              class="text-5xl text-center font-semibold font-title2  text-white "
             >
               Contacto
             </h2>
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-pastel mt-6 text-base font-title font-medium text-center text-balance xl:text-lg"
+              className="text-stone-400 mt-6 text-sm  font-title font-medium text-center text-balance xl:text-lg "
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
               asperiores dolores nisi. Soluta, quidem. Veritatis eveniet magnam
@@ -32,7 +32,7 @@ const Contact = () => {
                 <input
                   autoComplete="off"
                   placeholder="john@example.com"
-                  className="peer h-10 w-full border-b-2 border-gray-300 font-title text-white bg-transparent placeholder-transparent focus:outline-none focus:border-primary  lg:text-stone-600 2xl:mt-6"
+                  className="peer h-10 w-full border-b-2 border-pastel font-title text-white bg-transparent placeholder-transparent focus:outline-none focus:border-primary  lg:text-stone-600 2xl:mt-6"
                   required=""
                   id="email"
                   name="email"
@@ -49,7 +49,7 @@ const Contact = () => {
                 <input
                   autoComplete="off"
                   placeholder="Password"
-                  className="peer h-10 font-title w-full border-b-2 border-gray-300 text-white lg:text-stone-600 bg-transparent placeholder-transparent focus:outline-none focus:border-primary "
+                  className="peer h-10 font-title w-full border-b-2 border-pastel text-white lg:text-stone-600 bg-transparent placeholder-transparent focus:outline-none focus:border-primary "
                   required=""
                   id="password"
                   name="password"
@@ -59,7 +59,7 @@ const Contact = () => {
                 </label>
               </div>
              
-              <textarea id="box-glass" placeholder="Escribe tu consulta aquí ..." name="textarea" className="w-full h-[150px] bg-transparent pt-2 px-3 rounded-2xl border border-pastel text-white  font-title placeholder-pastel "></textarea>
+              <textarea id="box-glass" placeholder="Escribe tu consulta aquí ..." name="textarea" className="w-full h-[150px] bg-transparent  pt-2 px-3 rounded-2xl border border-pastel text-white  font-title placeholder-pastel "></textarea>
               <button
               id="box-glass"
                 className="w-full border border-pastel py-1 px-4  rounded-full shadow-lg text-white font-semibold transition duration-200 text-lg font-title "
