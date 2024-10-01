@@ -11,14 +11,14 @@ const Contact = () => {
           <article >
             <h2
               style={{ animation: "appear 2s ease-out" }}
-              class="text-5xl text-start font-semibold font-title2  text-white  pl-3"
+              class="text-5xl text-start font-semibold font-title2  text-white  pl-5"
             >
               Contacto
             </h2>
-            <div className="w-[80%] h-[2px] bg-blue-500 mt-3"></div>
+            <div className="w-[80%] h-[2px] bg-pastel mt-3"></div>
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-stone-400 mt-6 text-sm  font-title font-medium text-start text-balance xl:text-lg pl-3"
+              className="text-zinc-400 mt-5 text-sm  font-title font-medium text-start text-balance xl:text-lg pl-5"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
               asperiores dolores nisi. Soluta, quidem. Veritatis eveniet magnam
@@ -42,7 +42,7 @@ const Contact = () => {
                   type="email"
                 />
                 <label
-                  className=" absolute left-0 -top-3.5  text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-white peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-500 peer-focus:text-base font-normal lg:peer-placeholder-shown:text-stone-600 2xl:mt-6"
+                  className=" absolute left-0 -top-3.5  text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-pastel peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-500 peer-focus:text-base font-normal lg:peer-placeholder-shown:text-stone-600 2xl:mt-6"
                   for="email"
                 >
                   Email 
@@ -52,17 +52,17 @@ const Contact = () => {
                 <input
                   autoComplete="off"
                   placeholder="Password"
-                  className="peer h-10 font-title w-full border-b-2 border-pastel text-white lg:text-stone-600 bg-transparent placeholder-transparent focus:outline-none focus:border-blue-600"
+                  className="peer h-10 font-title w-full border-b-2 border-pastel text-white  bg-transparent placeholder-transparent focus:outline-none focus:border-blue-600"
                   required=""
                   id="password"
                   name="password"
                 />
-                <label className="absolute left-0 -top-3.5 text-gray-800 text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-white peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-500 peer-focus:text-base font-normal lg:peer-placeholder-shown:text-stone-600 ">
+                <label className="absolute left-0 -top-3.5 text-gray-800 text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-pastel peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-500 peer-focus:text-base font-normal lg:peer-placeholder-shown:text-stone-600 ">
                   WhatsApp
                 </label>
               </div>
              
-              <textarea id="box-glass" placeholder="Escribe tu consulta aquí ..." name="textarea" className="w-full h-[150px] bg-transparent  pt-2 px-3 rounded-2xl border border-pastel text-white  font-title placeholder-pastel "></textarea>
+              <textarea id="box-glass" placeholder="Escribe tu consulta aquí ..." name="textarea" className="w-full h-[150px] bg-transparent  pt-2 px-3 rounded-2xl border border-pastel text-white  font-title placeholder-pastel focus:border-blue-600"></textarea>
               <button
               id="box-glass"
                 className="w-full border border-pastel py-1 px-4  rounded-full shadow-lg text-white font-semibold transition duration-200 text-lg font-title "
