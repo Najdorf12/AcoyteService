@@ -9,11 +9,11 @@ const Home = () => {
           <button className="border border-blue-00 px-6 rounded-xl  flex justify-center items-center py-[2px]  shadow-md shadow-zinc-800 lg:px-9">
             Button
           </button>
-          <button className="border border-pastel px-6 rounded-xl bg-zinc-800 flex justify-center items-center py-[2px] text-white shadow-md shadow-zinc-600 lg:px-9">
+          <button className="border border-pastel px-6 rounded-xl bg-zinc-700 flex justify-center items-center py-[2px] text-white shadow-md shadow-zinc-600 lg:px-9">
             Button
           </button>
 
-          <button className=" border border-pastel px-6 rounded-xl bg-zinc-800 flex justify-center items-center py-[2px] text-white shadow-md shadow-zinc-600 lg:px-9">
+          <button className=" border border-pastel px-6 rounded-xl bg-zinc-700 flex justify-center items-center py-[2px] text-white shadow-md shadow-zinc-600 lg:px-9">
             Contacto
           </button>
         </nav> 
@@ -27,11 +27,11 @@ const Home = () => {
           </h5>
         </article>
 
-        <div className="w-full flex justify-between text-balance">
-          <div className="h-[130px] w-[45%] max-w-[350px] bg-gradient-to-tr from-zinc-800 via-blue-800 to-trasparent p-3 text-base font-title text-white rounded-r-2xl lg:h-[200px] lg:w-[25%]">
+        <div className="w-full flex justify-between text-balance absolute bottom-20 md:bottom-2">
+          <div className="border-l-0 border border-pastel h-[130px] w-[45%] max-w-[350px] bg-gradient-to-tr from-zinc-800 via-blue-800 to-trasparent p-3 text-base font-title text-white rounded-r-2xl lg:h-[200px] lg:w-[25%]">
             <p>Somo random text or link. Lorem ipsum</p>
-            <div className="w-[50%] h-[2.5px] bg-white mt-4 relative flex items-center justify-center">
-              <i className="bx bx-right-arrow-alt absolute -right-2 text-2xl mt-[.98px]"></i>
+            <div className="w-[50%] h-[2.5px] bg-pastel mt-4 relative flex items-center justify-center">
+              <i className="bx bx-right-arrow-alt absolute -right-2 text-2xl mt-[.98px] text-pastel"></i>
             </div>
           </div>
         </div>
