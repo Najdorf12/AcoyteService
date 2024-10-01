@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 const Home = () => {
   return (
     <>
-      <section className="z-50 w-full h-screen relative">
+      <section className="z-50 w-full h-[100dvh] lg:h-screen relative">
         <nav className="w-full  flex justify-evenly text-zinc-800 pt-2 font-text lg:justify-center lg:gap-12">
           <button className="border border-blue-00 px-6 rounded-xl  flex justify-center items-center py-[2px]  shadow-md shadow-zinc-800 lg:px-9">
             Button

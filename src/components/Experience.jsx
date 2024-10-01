@@ -21,7 +21,7 @@ const Experience = () => {
       if (window.innerWidth > 700) {
         setGroupPosition([0, -35, -314.6]);
       } else {
-        setGroupPosition([0, -30, -450]);
+        setGroupPosition([0, -20, -450]);
       }
     };
 
