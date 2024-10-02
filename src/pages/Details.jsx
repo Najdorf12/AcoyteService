@@ -72,6 +72,10 @@ const Details = () => {
           </ul>
         </div>
       </section>
+     
+     <article className="flex mt-3 z-50 pl-6 text-balance w-full justify-start">
+      <p className="text-4xl font-title2 font-extrabold z-50 text-gray-300">Alguien en <br />quien confiar. Lorem Ipsum</p>
+     </article>
     </>
   );
 };

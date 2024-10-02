@@ -2,8 +2,8 @@ const Contact = () => {
   return (
     <>
       <section id="contact-section" className="w-full h-screen flex flex-col">
-        <div className="h-[5vh] w-full rounded-r-sm z-50 bg-gradient-to-tr from-blue-800 via-blue-400 to-transparent"></div>
-        <section className="z-50 font-text2 mt-6 flex flex-col items-center">
+        {/* <div className="h-[5vh] w-full rounded-r-sm z-50 bg-gradient-to-tr from-blue-800 via-blue-400 to-transparent"></div> */}
+        <section className="z-50 font-text2 mt-12 flex flex-col items-center">
           <article className="flex flex-col items-center justify-center bg-gradient-to-tr from-zinc-800 via-zinc-800 to-trasparent shadow-md shadow-zinc-800 w-[95%] rounded-2xl max-w-[400px] py-6  border border-white">
             <h2
               style={{ animation: "appear 2s ease-out" }}
