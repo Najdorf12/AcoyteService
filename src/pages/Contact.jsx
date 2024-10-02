@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <>
       <section id="contact-section" className="w-full h-screen flex flex-col">
-        <div className="h-[5vh] w-[80%] rounded-r-sm z-50 bg-gradient-to-tr from-zinc-800 via-zinc-600 to-transparent"></div>
+        <div className="h-[5vh] w-full rounded-r-sm z-50 bg-gradient-to-tr from-blue-800 via-blue-400 to-transparent"></div>
         <section className="z-50 font-text2 mt-6 flex flex-col items-center">
           <article className="flex flex-col items-center justify-center bg-gradient-to-tr from-zinc-800 via-zinc-800 to-trasparent shadow-md shadow-zinc-800 w-[95%] rounded-2xl max-w-[400px] py-6  border border-white">
             <h2
@@ -11,7 +11,7 @@ const Contact = () => {
             >
               Contacto
             </h2>
-            <div className="w-[80%] mt-3 h-[1px] bg-blue-500 "></div>
+            <div className="w-[90%] mt-3 h-[1px] bg-blue-500 "></div>
             <p
               style={{ animation: "appear 3s ease-out" }}
               className="text-zinc-300 mt-5 px-4 text-sm  font-title  text-center text-balance xl:text-lg "
