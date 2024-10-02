@@ -5,18 +5,17 @@ const Home = () => {
   return (
     <>
       <section className="z-50 w-full h-screen relative flex flex-col justify-between">
-         <nav className="w-full absolute top-0  flex justify-evenly text-zinc-800 pt-2 font-text lg:justify-center lg:gap-12">
-          <button className="border border-blue-00 px-6 rounded-xl  flex justify-center items-center py-[2px]  shadow-md shadow-zinc-800 lg:px-9">
-            Button
+        <nav className="bg-gradient-to-tr from-zinc-800 via-zinc-800 to-trasparent w-full absolute top-0 shadow-md shadow-zinc-200 flex justify-evenly py-2 font-title text-base text-white  rounded-b-full">
+          <button className="flex items-center justify-center  rounded-full ">
+            Logo
+          </button>{" "}
+          <button className="flex items-center justify-center rounded-full">
+            Button1
+          </button>{" "}
+          <button className="flex items-center justify-center rounded-full ">
+            Button2
           </button>
-          <button className="border border-pastel px-6 rounded-xl bg-zinc-700 flex justify-center items-center py-[2px] text-white shadow-md shadow-zinc-600 lg:px-9">
-            Button
-          </button>
-
-          <button className=" border border-pastel px-6 rounded-xl bg-zinc-700 flex justify-center items-center py-[2px] text-white shadow-md shadow-zinc-600 lg:px-9">
-            Contacto
-          </button>
-        </nav> 
+        </nav>
         <article className="z-50 px-3 flex flex-col text-balance text-center justify-center items-center mt-16">
           <h1 className="text-6xl font-title2 font-bold text-zinc-800 z-50 leading-[3.5rem] xl:text-8xl 2xl:text-9xl">
             ACOYTE SERVICE
@@ -28,10 +27,10 @@ const Home = () => {
         </article>
 
         <div className="w-full flex justify-between text-balance absolute bottom-20 md:bottom-2">
-          <div className="border-l-0 border border-pastel h-[130px] w-[45%] max-w-[350px] bg-gradient-to-tr from-zinc-800 via-blue-800 to-trasparent p-3 text-base font-title text-white rounded-r-2xl lg:h-[200px] lg:w-[25%]">
-            <p>Somo random text or link. Lorem ipsum</p>
-            <div className="w-[50%] h-[2.5px] bg-pastel mt-4 relative flex items-center justify-center">
-              <i className="bx bx-right-arrow-alt absolute -right-2 text-2xl mt-[.98px] text-pastel"></i>
+          <div className="border-l-0 shadow-md shadow-zinc-800 h-[130px] w-[45%] max-w-[350px] bg-gradient-to-tr from-zinc-800 via-zinc-800 to-trasparent p-3 text-base font-title text-white rounded-r-2xl lg:h-[200px] lg:w-[25%]">
+            <p>Some random text or link. Lorem ipsum</p>
+            <div className="w-[50%] h-[2.5px] bg-blue-500 mt-4 relative flex items-center justify-center">
+              <i className="bx bx-right-arrow-alt absolute -right-2 text-2xl mt-[.98px] text-blue-500"></i>
             </div>
           </div>
         </div>

@@ -1,29 +1,27 @@
 const Contact = () => {
   return (
     <>
-    
-      <section
-        id="contact-section"
-        className="w-full h-screen bg-zinc-800 flex flex-col"
-      >
-      <div  className="h-[5vh] w-full bg-blue-600"></div>
-        <section className="z-50 font-text2 mt-14">
-          <article >
+      <section id="contact-section" className="w-full h-screen flex flex-col">
+        <div className="h-[5vh] w-[80%] rounded-r-sm z-50 bg-gradient-to-tr from-zinc-800 via-zinc-600 to-transparent"></div>
+        <section className="z-50 font-text2 mt-6 flex flex-col items-center">
+          <article className="flex flex-col items-center justify-center bg-gradient-to-tr from-zinc-800 via-zinc-800 to-trasparent shadow-md shadow-zinc-800 w-[95%] rounded-2xl max-w-[400px] py-6  border border-white">
             <h2
               style={{ animation: "appear 2s ease-out" }}
-              class="text-5xl text-start font-semibold font-title2  text-white  pl-5"
+              class="text-5xl text-center font-semibold font-title2  text-white"
             >
               Contacto
             </h2>
-            <div className="w-[80%] h-[2px] bg-pastel mt-3"></div>
+            <div className="w-[80%] mt-3 h-[1px] bg-blue-500 "></div>
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-zinc-400 mt-5 text-sm  font-title font-medium text-start text-balance xl:text-lg pl-5"
+              className="text-zinc-300 mt-5 px-4 text-sm  font-title  text-center text-balance xl:text-lg "
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
               asperiores dolores nisi. Soluta, quidem. Veritatis eveniet magnam
               nemo nostrum voluptatem!
             </p>
+            <div className="w-[10%] mt-6 h-[1px] bg-white "></div>
+
           </article>
           <div
             /* id="box-glass" */
@@ -42,10 +40,10 @@ const Contact = () => {
                   type="email"
                 />
                 <label
-                  className=" absolute left-0 -top-3.5  text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-pastel peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-500 peer-focus:text-base font-normal lg:peer-placeholder-shown:text-stone-600 2xl:mt-6"
+                  className=" absolute left-0 -top-3.5  text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-zinc-500 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-zinc-300 peer-focus:text-base font-normal lg:peer-placeholder-shown:text-stone-600 2xl:mt-6"
                   for="email"
                 >
-                  Email 
+                  Email
                 </label>
               </div>
               <div className="relative">
@@ -57,15 +55,20 @@ const Contact = () => {
                   id="password"
                   name="password"
                 />
-                <label className="absolute left-0 -top-3.5 text-gray-800 text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-pastel peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-stone-500 peer-focus:text-base font-normal lg:peer-placeholder-shown:text-stone-600 ">
+                <label className="absolute left-0 -top-3.5 text-gray-800 text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-zinc-500 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-zinc-300 peer-focus:text-base font-normal lg:peer-placeholder-shown:text-stone-600 ">
                   WhatsApp
                 </label>
               </div>
-             
-              <textarea id="box-glass" placeholder="Escribe tu consulta aquí ..." name="textarea" className="w-full h-[150px] bg-transparent  pt-2 px-3 rounded-2xl border border-pastel text-white  font-title placeholder-pastel focus:border-blue-600"></textarea>
+
+              <textarea
+                id="box-glass"
+                placeholder="Escribe tu consulta aquí ..."
+                name="textarea"
+                className="w-full h-[150px] bg-transparent  pt-2 px-3 rounded-2xl border border-pastel text-zinc-800 font-title placeholder-zinc-700 font-medium  "
+              ></textarea>
               <button
-              id="box-glass"
-                className="w-full border border-pastel py-1 px-4  rounded-full shadow-lg text-white font-semibold transition duration-200 text-lg font-title "
+                /*   id="box-glass" */
+                className="bg-gradient-to-tr from-zinc-800 via-zinc-800 to-trasparent w-full border border-zinc-600 py-1 px-4  rounded-full shadow-md shadow-zinc-800 text-white font-semibold transition duration-200 text-lg font-title "
                 type="submit"
               >
                 Enviar
