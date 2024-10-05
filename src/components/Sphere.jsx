@@ -195,7 +195,7 @@ export const Sphere = (props) => {
           })
             .to(sphere.current?.rotation, {
               x:screen > 1000 ? 0 : -.24, 
-              y: screen > 1000 ? 0 : -1,
+              y: screen > 1000 ? 0 : -1.8,
               ease: "power1.out",
               scrollTrigger: {
                 trigger: "#contact-section",
