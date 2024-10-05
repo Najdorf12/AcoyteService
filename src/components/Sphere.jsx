@@ -158,21 +158,32 @@ export const Sphere = (props) => {
       }) 
         
         tl.to(sphere.current?.position, {
-          x: screen > 1000 ? 0 : 0,
-          y: screen > 1000 ? 0 : -70,
-          z: screen > 1000 ? 0 : 30,
+          x:screen > 1000 ? 0 : 100,
+          y:screen > 1000 ? 0 : -20,
+          z: screen > 1000 ? 0 : 200,
           ease: "power1.out",
           scrollTrigger: {
-            trigger: "#contact-section",
+            trigger: "#brand-section",
             start: "top bottom",
             end: "top top",
             scrub: true,
             immediateRender: false,
           },
         })
-          .to(sphere.current?.rotation, {
-            x:screen > 1000 ? 0 : .1,   
-            y: screen > 1000 ? 0 : -.4,
+          .to(sphere.current?.rotation, { 
+            y: screen > 1000 ? 0 : -.1,
+            ease: "power1.out",
+            scrollTrigger: {
+              trigger: "#brand-section",
+              start: "top bottom",
+              end: "top top",
+              scrub: true,
+              immediateRender: false,
+            },
+          }) .to(sphere.current?.position, {
+            x: screen > 1000 ? 0 : 30,
+            y: screen > 1000 ? 0 : -30,
+            z: screen > 1000 ? 0 : 130,
             ease: "power1.out",
             scrollTrigger: {
               trigger: "#contact-section",
@@ -181,7 +192,19 @@ export const Sphere = (props) => {
               scrub: true,
               immediateRender: false,
             },
-          }) 
+          })
+            .to(sphere.current?.rotation, {
+              x:screen > 1000 ? 0 : -.24, 
+              y: screen > 1000 ? 0 : -.8,
+              ease: "power1.out",
+              scrollTrigger: {
+                trigger: "#contact-section",
+                start: "top bottom",
+                end: "top top",
+                scrub: true,
+                immediateRender: false,
+              },
+            })
   }, []);
 
   return (
