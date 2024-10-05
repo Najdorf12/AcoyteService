@@ -4,14 +4,14 @@ const Contact = () => {
       <section id="contact-section" className="w-full h-screen flex flex-col">
         {/* <div className="h-[5vh] w-full rounded-r-sm z-50 bg-gradient-to-tr from-blue-800 via-blue-400 to-transparent"></div> */}
         <section className="z-50 font-text2 mt-12 flex flex-col items-center">
-          <article className="flex flex-col items-center justify-center bg-gradient-to-tr from-zinc-800 via-zinc-800 to-trasparent shadow-md shadow-zinc-800 w-[95%] rounded-2xl max-w-[400px] py-6  border border-white">
+          <article className="flex flex-col items-center justify-center">
             <h2
               style={{ animation: "appear 2s ease-out" }}
-              class="text-5xl text-center font-semibold font-title2  text-white"
+              class="text-5xl text-center font-semibold font-title2  text-zinc-500"
             >
               Contacto
             </h2>
-            <div className="w-[90%] mt-3 h-[1px] bg-blue-500 "></div>
+           {/*  <div className="w-[90%] mt-3 h-[1px] bg-blue-500 "></div> */}
             <p
               style={{ animation: "appear 3s ease-out" }}
               className="text-zinc-300 mt-5 px-4 text-sm  font-title  text-center text-balance xl:text-lg "

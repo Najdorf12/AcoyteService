@@ -181,9 +181,9 @@ export const Sphere = (props) => {
               immediateRender: false,
             },
           }) .to(sphere.current?.position, {
-            x: screen > 1000 ? 0 : 30,
-            y: screen > 1000 ? 0 : -30,
-            z: screen > 1000 ? 0 : 130,
+            x: screen > 1000 ? 0 : 0,
+            y: screen > 1000 ? 0 : -90,
+            z: screen > 1000 ? 0 : -40,
             ease: "power1.out",
             scrollTrigger: {
               trigger: "#contact-section",
@@ -195,7 +195,7 @@ export const Sphere = (props) => {
           })
             .to(sphere.current?.rotation, {
               x:screen > 1000 ? 0 : -.24, 
-              y: screen > 1000 ? 0 : -.8,
+              y: screen > 1000 ? 0 : -1,
               ease: "power1.out",
               scrollTrigger: {
                 trigger: "#contact-section",
