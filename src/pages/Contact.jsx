@@ -90,8 +90,8 @@ const Contact = () => {
             </li>
           </ul>
         </footer>
-        <div className="absolute bottom-0 text-zinc-700 text-base font-normal flex justify-center items-center gap-1 w-full">
-        <i className='bx bx-copyright text-lg'></i>Acoyteservice
+        <div className="absolute bottom-0 text-zinc-700 text-base font-normal flex justify-center items-center gap-1 w-full font-text">
+        <i className='bx bx-copyright text-xl'></i>ACOYTESERVICE
 
         </div>
       </section>
