@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <>
-      <section id="contact-section" className="w-full h-screen flex flex-col">
+      <section id="contact-section" className="w-full h-screen flex flex-col bg-zinc-800">
         {/* <div className="h-[5vh] w-full rounded-r-sm z-50 bg-gradient-to-tr from-blue-800 via-blue-400 to-transparent"></div> */}
         <section className="z-50 font-text2 mt-12 flex flex-col items-center">
           <article className="flex flex-col items-center justify-center">
