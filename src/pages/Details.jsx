@@ -88,21 +88,21 @@ const Details = () => {
         id="brand-section"
         className="w-full h-screen flex flex-col z-50  text-balance"
       >
-        <p className="text-4xl font-title2 font-extrabold z-50 text-zinc-600 mt-12 pl-4">
+        <p className="text-4xl font-title2 font-extrabold z-50 text-zinc-600 mt-8 pl-4">
           Alguien en <br />
           quien confiar. <span className="text-blue-500">Lorem Ipsum</span>{" "}
         </p>
-        <figure className="w-[60%] flex  items-center z-50  mt-6 py-3 px-6 bg-white border-r-[3px]  border-b-[3px] border-blue-500 shadow-lg shadow-zinc-800  rounded-2xl max-w-[300px]">
+        <figure className="w-[60%] flex  items-center z-50  mt-6 py-3 px-6 bg-white border-r-[3px]  border-b-[3px] border-blue-500 shadow-lg shadow-zinc-800  rounded-2xl max-w-[280px]">
           <img
             className="w-full object-cover rounded-2xl"
             src={imgGif}
             alt=""
           />
         </figure>
-        <p className="text-2xl font-title2 font-extrabold z-50 text-zinc-300 mt-4 pl-4 w-[70%] max-w-[410px]">
+        <p className="text-2xl font-title2 font-extrabold z-50 text-zinc-200 mt-4 pl-4 w-[70%] max-w-[410px]">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
           reiciendis.
-          <button className="z-50 bg-blue-500 mt-3 py-[2px] relative flex items-center justify-center rounded-2xl w-[80%] font-medium font-text2 text-base border border-whiteCustom shadow-md shadow-zinc-800 text-zinc-200">
+          <button className="z-50 bg-zinc-800 mt-3 py-[2px] relative flex items-center justify-center rounded-2xl w-[80%] font-medium font-text2 text-base border border-zinc-500 shadow-md shadow-zinc-800 text-white">
             Button
           </button>
         </p>
