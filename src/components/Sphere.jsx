@@ -158,9 +158,9 @@ export const Sphere = (props) => {
       }) 
         
         tl.to(sphere.current?.position, {
-          x:screen > 1000 ? 0 : 100,
+          x:screen > 1000 ? 0 : 70,
           y:screen > 1000 ? 0 : -20,
-          z: screen > 1000 ? 0 : 200,
+          z: screen > 1000 ? 0 : 230,
           ease: "power1.out",
           scrollTrigger: {
             trigger: "#brand-section",
@@ -171,7 +171,7 @@ export const Sphere = (props) => {
           },
         })
           .to(sphere.current?.rotation, { 
-            y: screen > 1000 ? 0 : -.1,
+             y: screen > 1000 ? 0 : 1, 
             ease: "power1.out",
             scrollTrigger: {
               trigger: "#brand-section",
@@ -182,8 +182,8 @@ export const Sphere = (props) => {
             },
           }) .to(sphere.current?.position, {
             x: screen > 1000 ? 0 : 0,
-            y: screen > 1000 ? 0 : -90,
-            z: screen > 1000 ? 0 : -40,
+            y: screen > 1000 ? 0 : -130,
+            z: screen > 1000 ? 0 : -190,
             ease: "power1.out",
             scrollTrigger: {
               trigger: "#contact-section",
