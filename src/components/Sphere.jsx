@@ -106,9 +106,9 @@ export const Sphere = (props) => {
     const screen = window.screen.width;
     new ScrollTrigger({});
     tl.to(sphere.current?.position, {
-      x: screen > 1000 ? 0 : 30,
+      x: screen > 1000 ? 80 : 30,
       y: screen > 1000 ? 0 : -30,
-      z: screen > 1000 ? 0 : 130,
+      z: screen > 1000 ? 100 : 130,
       ease: "power1.out",
       scrollTrigger: {
         trigger: "#second_section",
@@ -120,7 +120,7 @@ export const Sphere = (props) => {
     })
       .to(sphere.current?.rotation, {
         x:screen > 1000 ? 0 : -.24, 
-        y: screen > 1000 ? 0 : -.8,
+        y: screen > 1000 ? -1.4 : -.8,
         ease: "power1.out",
         scrollTrigger: {
           trigger: "#second_section",
@@ -130,10 +130,10 @@ export const Sphere = (props) => {
           immediateRender: false,
         },
       })
-      tl.to(sphere.current?.position, {
-        x: screen > 1000 ? 0 : 80,
-        y: screen > 1000 ? 0 : 0,
-        z: screen > 1000 ? 0 : 220,
+    tl.to(sphere.current?.position, {
+        x: screen > 1000 ? 80 : 80,
+        y: screen > 1000 ? 15 : 0,
+        z: screen > 1000 ? 120 : 220,
         ease: "power1.out",
         scrollTrigger: {
           trigger: "#third-section",
@@ -145,7 +145,7 @@ export const Sphere = (props) => {
       })
       .to(sphere.current?.rotation, {
         x: screen > 1000 ? 0 : -.2, 
-        y: screen > 1000 ? 0 : -2,
+        y: screen > 1000 ? -2.3 : -2,
        
         ease: "power1.out",
         scrollTrigger: {
@@ -158,9 +158,9 @@ export const Sphere = (props) => {
       }) 
         
         tl.to(sphere.current?.position, {
-          x:screen > 1000 ? 0 : 70,
-          y:screen > 1000 ? 0 : -20,
-          z: screen > 1000 ? 0 : 230,
+          x:screen > 1000 ? 70 : 70,
+          y:screen > 1000 ? 15 : -20,
+          z: screen > 1000 ? 110 : 230,
           ease: "power1.out",
           scrollTrigger: {
             trigger: "#brand-section",
@@ -171,7 +171,7 @@ export const Sphere = (props) => {
           },
         })
           .to(sphere.current?.rotation, { 
-             y: screen > 1000 ? 0 : -3.7, 
+             y: screen > 1000 ? -3.7 : -3.7, 
             ease: "power1.out",
             scrollTrigger: {
               trigger: "#brand-section",
@@ -180,7 +180,7 @@ export const Sphere = (props) => {
               scrub: true,
               immediateRender: false,
             },
-          }) .to(sphere.current?.position, {
+          })    .to(sphere.current?.position, {
             x: screen > 1000 ? 0 : 0,
             y: screen > 1000 ? 0 : -30,
             z: screen > 1000 ? 0 : -120,
@@ -194,8 +194,7 @@ export const Sphere = (props) => {
             },
           })
             .to(sphere.current?.rotation, {
-              x:screen > 1000 ? 0 : -.24, 
-              y: screen > 1000 ? 0 : -1.8,
+              y: screen > 1000 ? -2 : -1.8,
               ease: "power1.out",
               scrollTrigger: {
                 trigger: "#contact-section",
