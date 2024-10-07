@@ -7,14 +7,14 @@ const Contact = () => {
           <article className="flex flex-col items-center justify-center">
             <h2
               style={{ animation: "appear 2s ease-out" }}
-              class="text-5xl text-center font-semibold font-title2  text-white"
+              class="text-5xl text-center font-semibold font-title2  text-white xl:text-6xl"
             >
               CONTACTO
             </h2>
 
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-zinc-300 mt-6 px-3 text-sm  font-title  text-center text-balance xl:text-lg "
+              className="text-zinc-300 mt-6 px-3 text-sm  font-title  text-center text-balance xl:text-base max-w-[500px]"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus animi magni qui, sunt id quasi reiciendis provident eos sapiente nobis.
             </p>
@@ -73,7 +73,7 @@ const Contact = () => {
             </form>
           </div>
         </section>
-        <footer className="w-full mt-6 lg:mt-1 xl:w-[50%] xl:mt-5 2xl:mt-6 z-50">
+        <footer className="w-full self-center mt-6 lg:mt-1 xl:w-[50%] xl:mt-5 2xl:mt-6 z-50">
           <ul className="flex gap-8 justify-center items-center text-zinc-200 text-4xl xl:text-5xl xl:gap-12  ">
             <li className="hover:scale-110 hover:text-white duration-500 cursor-pointer z-50">
               <i className="bx bxl-youtube"></i>
