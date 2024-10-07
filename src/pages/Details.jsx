@@ -5,83 +5,41 @@ import imgBrand from "../assets/img1.png";
 import imgGif from "../assets/phonegif.gif";
 import imgGifEdit from "../assets/editphonegif.mp4";
 const Details = () => {
+  const iconsTech = [iconPhone, iconPc, iconGamer];
+
   return (
     <>
       <section
         id="third-section"
-        className="w-full h-[110vh] 2xl:h-screen  lg:pl-[10%] text-zinc-600 text-sm flex flex-col justify-center  "
+        className="w-full bg-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-evenly items-center lg:items-start "
       >
-        <div className="flex flex-col justify-center  z-50 relative h-1/3">
-          <figure className="w-[30%] max-w-[130px] bg-gradient-to-tr from-zinc-800 via-zinc-700 to-trasparent rounded-tr-3xl p-3 border-blue-400 border-r-[6px] 2xl:max-w-[170px] ">
-            <img className="w-full" src={iconPhone} alt="" />
-          </figure>
-          <ul
-            className="font-title text-balance  pl-3 shadow-md shadow-zinc-800 w-[60%] py-2
-          bg-gradient-to-tr from-zinc-800 via- to-trasparent rounded-2xl rounded-l-none
-          text-zinc-100 gap-1 border-zinc-400 border max-w-[420px] xl:text-lg xl:max-w-[520px] xl:py-3 "
+       {/*  <div className="w-[60%] h-screen bg-blue-500 absolute left-0 rounded-3xl "></div> */}
+        {iconsTech?.map((icon, i) => (
+          <div
+            key={i}
+            className="flex justify-center items-center z-50 relative  w-fit max-w-[500px] lg:max-w-[600px]  2xl:max-w-[700px] lg:ml-[5%] "
           >
-            <li className="flex items-start gap-1 max-w-[200px] lg:max-w-fit xl:gap-2">
-              <i className="text-blue-500 bx bxs-doughnut-chart text-base xl:text-lg 2xl:text-xl"></i>{" "}
-              Lorem ipsum dolor sit amet consectetur.
-            </li>
-            <li className="flex items-start gap-1 max-w-[200px] lg:max-w-fit xl:gap-2">
-              <i className="text-blue-500 bx bxs-doughnut-chart text-base xl:text-lg 2xl:text-xl"></i>{" "}
-              Lorem ipsum dolor sit amet consectetur.
-            </li>
-            <li className="flex items-start gap-1 max-w-[200px] lg:max-w-fit xl:gap-2">
-              <i className="text-blue-500 bx bxs-doughnut-chart text-base xl:text-lg 2xl:text-xl"></i>{" "}
-              Lorem ipsum dolor sit amet consectetur.
-            </li>
-          </ul>
-        </div>
-
-        <div className="flex flex-col justify-center  z-50 relative h-1/3">
-          <figure className="w-[30%] max-w-[130px] bg-gradient-to-tr from-zinc-800 via-zinc-700 to-trasparent rounded-tr-3xl p-3 border-blue-400 border-r-[6px] 2xl:max-w-[170px]">
-            <img className="w-full" src={iconPc} alt="" />
-          </figure>
-          <ul
-            className="font-title text-balance  pl-3 shadow-md shadow-zinc-800 w-[60%] py-2
-          bg-gradient-to-tr from-zinc-800 via- to-trasparent rounded-2xl rounded-l-none
-          text-zinc-100 gap-1 border-zinc-400 border max-w-[420px] xl:text-lg xl:max-w-[520px] 2xl:gap-2 xl:py-3"
-          >
-            <li className="flex items-start gap-1 max-w-[200px] lg:max-w-fit xl:gap-2">
-              <i className="text-blue-500 bx bxs-doughnut-chart text-base xl:text-lg 2xl:text-xl "></i>{" "}
-              Lorem ipsum dolor sit amet consectetur.
-            </li>
-            <li className="flex items-start gap-1 max-w-[200px] lg:max-w-fit xl:gap-2">
-              <i className="text-blue-500 bx bxs-doughnut-chart text-base xl:text-lg 2xl:text-xl"></i>{" "}
-              Lorem ipsum dolor sit amet consectetur.
-            </li>
-            <li className="flex items-start gap-1 max-w-[200px] lg:max-w-fit xl:gap-2">
-              <i className="text-blue-500 bx bxs-doughnut-chart text-base xl:text-lg 2xl:text-xl"></i>{" "}
-              Lorem ipsum dolor sit amet consectetur.
-            </li>
-          </ul>
-        </div>
-
-        <div className="flex flex-col justify-center  z-50 relative h-1/3">
-          <figure className="w-[33%] max-w-[140px] bg-gradient-to-tr from-zinc-800 via-zinc-700 to-trasparent rounded-tr-3xl p-3 border-blue-400 border-r-[6px] 2xl:max-w-[170px]">
-            <img className="w-full" src={iconGamer} alt="" />
-          </figure>
-          <ul
-            className="font-title text-balance  pl-3 shadow-md shadow-zinc-800 w-[60%] py-2
-          bg-gradient-to-tr from-zinc-800 via- to-trasparent rounded-2xl rounded-l-none
-          text-zinc-100 gap-1 border-zinc-400 border max-w-[420px] xl:text-lg xl:max-w-[520px] xl:py-3"
-          >
-            <li className="flex items-start gap-1 max-w-[200px] lg:max-w-fit xl:gap-2">
-              <i className="text-blue-500 bx bxs-doughnut-chart text-base xl:text-lg 2xl:text-xl"></i>{" "}
-              Lorem ipsum dolor sit amet consectetur.
-            </li>
-            <li className="flex items-start gap-1 max-w-[200px] lg:max-w-fit xl:gap-2">
-              <i className="text-blue-500 bx bxs-doughnut-chart text-base xl:text-lg 2xl:text-xl"></i>{" "}
-              Lorem ipsum dolor sit amet consectetur.
-            </li>
-            <li className="flex items-start gap-1 max-w-[200px] lg:max-w-fit xl:gap-2">
-              <i className="text-blue-500 bx bxs-doughnut-chart text-base xl:text-lg 2xl:text-xl"></i>{" "}
-              Lorem ipsum dolor sit amet consectetur.
-            </li>
-          </ul>
-        </div>
+            <figure className="w-[35%]  h-full flex justify-center items-center  to-trasparent p-3 rounded-2xl rounded-r-none max-w-[200px]  shadow-md shadow-zinc-900 bg-gradient-to-tl from-blue-800 via-zinc-800 to-trasparent">
+              <img className="w-full" src={icon} alt="icon" />
+            </figure>
+            <ul
+              className="font-title h-full text-base text-balance flex flex-col justify-center  shadow-md shadow-zinc-900 pl-3 py-3 w-[60%] rounded-2xl rounded-l-none  text-zinc-100 gap-1 xl:text-lg xl:py-3 bg-gradient-to-tr from-blue-800 via-zinc-800 to-trasparent"
+            >
+              <li className="flex items-start gap-2  lg:max-w-fit xl:gap-2">
+                <i className="text-blue-500 bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>{" "}
+                Lorem ipsum dolor sit amet consectetur.
+              </li>
+              <li className="flex items-start gap-2  lg:max-w-fit xl:gap-2">
+                <i className="text-blue-500 bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>{" "}
+                Lorem ipsum dolor sit amet consectetur.
+              </li>
+              <li className="flex items-start gap-2  lg:max-w-fit xl:gap-2">
+                <i className="text-blue-500 bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>{" "}
+                Lorem ipsum dolor sit amet consectetur.
+              </li>
+            </ul>
+          </div>
+        ))}
       </section>
 
       <section
