@@ -1,20 +1,20 @@
 const Contact = () => {
   return (
     <>
-      <section id="contact-section" className="w-full h-screen flex flex-col bg-zinc-800">
-        {/* <div className="h-[5vh] w-full rounded-r-sm z-50 bg-gradient-to-tr from-blue-800 via-blue-400 to-transparent"></div> */}
+      <section id="contact-section" className="w-full h-screen md:h-auto flex flex-col bg-zinc-800 pb-8 lg:pb-14 xl:pb-20 2xl:h-screen">
+        
         <section className="z-50 font-text2 mt-12 flex flex-col items-center">
           <article className="flex flex-col items-center justify-center">
             <h2
               style={{ animation: "appear 2s ease-out" }}
-              class="text-5xl text-center font-semibold font-title2  text-white xl:text-6xl"
+              class="text-5xl text-center font-semibold font-title2  text-white lg:text-7xl xl:text-8xl 2xl:text-9xl"
             >
               CONTACTO
             </h2>
 
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-zinc-300 mt-6 px-3 text-sm  font-title  text-center text-balance xl:text-base max-w-[500px]"
+              className="text-zinc-300 mt-6 px-3 text-sm  font-title  text-center text-balance xl:text-base max-w-[500px] xl:max-w-[600px] 2xl:text-lg 2xl:max-w-[700px]"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus animi magni qui, sunt id quasi reiciendis provident eos sapiente nobis.
             </p>
@@ -25,7 +25,7 @@ const Contact = () => {
             style={{ animation: "slideInFromLeft 1s ease-out" }}
             class="max-w-md w-full rounded-2xl  overflow-hidden py-6 space-y-4"
           >
-            <form method="POST" action="#" className="space-y-8 px-6 mt-6 ">
+            <form method="POST" action="#" className="space-y-8 px-6 mt-6  lg:mt-2">
               <div className="relative">
                 <input
                   autoComplete="off"
@@ -73,8 +73,8 @@ const Contact = () => {
             </form>
           </div>
         </section>
-        <footer className="w-full self-center mt-6 lg:mt-1 xl:w-[50%] xl:mt-5 2xl:mt-6 z-50">
-          <ul className="flex gap-8 justify-center items-center text-zinc-200 text-4xl xl:text-5xl xl:gap-12  ">
+        <footer className="w-full self-center mt-6 lg:w-auto z-50 lg:mt-2">
+          <ul className="flex gap-8 justify-center items-center text-zinc-200 text-4xl lg:text-5xl  xl:gap-12 ">
             <li className="hover:scale-110 hover:text-white duration-500 cursor-pointer z-50">
               <i className="bx bxl-youtube"></i>
             </li>
