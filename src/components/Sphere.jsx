@@ -181,9 +181,9 @@ export const Sphere = (props) => {
               immediateRender: false,
             },
           })    .to(sphere.current?.position, {
-            x: screen > 1000 ? 0 : 0,
-            y: screen > 1000 ? 0 : -30,
-            z: screen > 1000 ? 0 : -120,
+            x: screen > 1000 ? 120 : 0,
+            y: screen > 1000 ? 15 : -30,
+            z: screen > 1000 ? 50 : -120,
             ease: "power1.out",
             scrollTrigger: {
               trigger: "#contact-section",

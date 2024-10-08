@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
     <>
-      <section id="contact-section" className="w-full h-screen md:h-auto flex flex-col bg-zinc-800 pb-8 lg:pb-14 xl:pb-20 2xl:h-screen">
-        
+      <section id="contact-section" className="w-full h-screen md:h-auto flex flex-col bg-zinc-800 pb-8 rounded-2l xl:pb-20 2xl:h-screen lg:w-[80%] lg:self-center lg:rounded-r-3xl">
+       <div className="z-20 hidden lg:flex absolute h-screen right-0 w-[10%] bg-white"></div>
         <section className="z-50 font-text2 mt-12 flex flex-col items-center">
           <article className="flex flex-col items-center justify-center">
             <h2
