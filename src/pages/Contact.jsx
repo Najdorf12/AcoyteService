@@ -7,30 +7,34 @@ const Contact = () => {
           <article className="flex flex-col items-center justify-center">
             <h2
               style={{ animation: "appear 2s ease-out" }}
-              class="text-5xl text-center font-semibold font-title2  text-white lg:text-7xl xl:text-8xl 2xl:text-9xl"
+              class="text-5xl text-center font-bold font-title2  text-primary lg:text-7xl xl:text-8xl 2xl:text-9xl"
             >
               CONTACTO
             </h2>
 
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-zinc-300 mt-6 px-3 text-sm  font-title  text-center text-balance xl:text-base max-w-[500px] xl:max-w-[600px] 2xl:text-lg 2xl:max-w-[700px]"
+              className="text-zinc-300 mt-4 px-3 text-sm  font-title  text-center text-balance xl:text-base  xl:max-w-[600px] 2xl:text-lg 2xl:max-w-[700px]"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus animi magni qui, sunt id quasi reiciendis provident eos sapiente nobis.
+              Elige Infinix Service para una experiencia donde la tecnología, la eficiencia y la satisfacción del cliente se combinan.
             </p>
-
+            <p
+              className="text-white mt-6 px-3 text-base  font-title  text-center text-balance xl:text-base max-w-[500px] xl:max-w-[600px] 2xl:text-lg 2xl:max-w-[700px]"
+            >
+             Ponte en contacto con nosotros o dejanos tu consulta. 
+            </p>
           </article>
           <div
             /* id="box-glass" */
             style={{ animation: "slideInFromLeft 1s ease-out" }}
             class="max-w-md w-full rounded-2xl  overflow-hidden py-6 space-y-4"
           >
-            <form method="POST" action="#" className="space-y-8 px-6 mt-6  lg:mt-2">
+            <form method="POST" action="#" className="space-y-8 px-6   lg:mt-2">
               <div className="relative">
                 <input
                   autoComplete="off"
                   placeholder="john@example.com"
-                  className="peer h-10 w-full border-b-2 border-blue-500 font-title text-white bg-transparent placeholder-transparent focus:outline-none focus:border-blue-600  2xl:mt-6"
+                  className="peer h-10 w-full border-b-2 border-primary font-title text-white bg-transparent placeholder-transparent focus:outline-none focus:border-whiteCustom  2xl:mt-6"
                   required=""
                   id="email"
                   name="email"
@@ -47,7 +51,7 @@ const Contact = () => {
                 <input
                   autoComplete="off"
                   placeholder="Password"
-                  className="peer h-10 font-title w-full border-b-2 border-blue-500 text-white  bg-transparent placeholder-transparent focus:outline-none focus:border-blue-600"
+                  className="peer h-10 font-title w-full border-b-2 border-primary text-white  bg-transparent placeholder-transparent focus:outline-none focus:border-whiteCustom"
                   required=""
                   id="password"
                   name="password"
@@ -61,11 +65,11 @@ const Contact = () => {
                 id="box-glass"
                 placeholder="Escribe tu consulta aquí ..."
                 name="textarea"
-                className="w-full h-[180px] bg-transparent  pt-2 px-3 rounded-2xl border border-zinc-500 text-zinc-200 font-title placeholder-gray-300 font-medium  "
+                className="border-[2px] border-whiteCustom text-white rounded-2xl w-full h-[150px] placeholder:text-zinc-400 p-2 bg-transparent  focus:border-primary focus:outline-none"
               ></textarea>
               <button
                   id="box-glass" 
-                className=" w-full border border-zinc-500 py-1 px-4  rounded-full shadow-md shadow-zinc-800 text-white font-semibold transition duration-200 text-lg font-title "
+                className=" w-full border border-whiteCustom py-1 px-4  rounded-full shadow-md shadow-zinc-800 text-primary font-semibold transition duration-200 text-lg font-title "
                 type="submit"
               >
                 Enviar
@@ -74,7 +78,7 @@ const Contact = () => {
           </div>
         </section>
         <footer className="w-full self-center mt-6 lg:w-auto z-50 lg:mt-2">
-          <ul className="flex gap-8 justify-center items-center text-zinc-200 text-4xl lg:text-5xl  xl:gap-12 ">
+          <ul className="flex gap-8 justify-center items-center text-primary text-4xl lg:text-5xl  xl:gap-12 ">
             <li className="hover:scale-110 hover:text-white duration-500 cursor-pointer z-50">
               <i className="bx bxl-youtube"></i>
             </li>

@@ -20,7 +20,7 @@ const About = () => {
             className="border-[2px] border-pastel2 flex w-[91%] h-[170px] z-50 rounded-2xl md:h-[200px] max-w-[700px] 2xl:max-w-[800px] 2xl:h-[200px]  md:justify-between"
           >
             <article className="font-text3 text-balance flex flex-col pl-3 pt-3 relative text-zinc-800">
-              <h6 className="text-lg font-medium md:text-xl text-blue-600">Lorem Impsum dolor</h6>
+              <h6 className="text-lg font-medium md:text-xl text-primary">Lorem Impsum dolor</h6>
               <p className="text-sm mt-1 md:text-base max-w-[300px] ">
                 Lorem ipsum dolor, sit amet consectetur adipisicing.
               </p>
@@ -40,7 +40,7 @@ const About = () => {
               className="border-[2px] border-pastel2 w-[45%] h-[190px] rounded-2xl max-w-[348px] 2xl:max-w-[400px] 2xl:h-[200px]"
             >
               <article className="font-text3 text-balance flex flex-col pl-3 pt-2">
-                <h6 className="text-lg font-medium md:text-xl text-blue-600">Support 24/7</h6>
+                <h6 className="text-lg font-medium md:text-xl text-primary">Support 24/7</h6>
                 <p className="text-sm mt-1 md:text-base  ">
                   Some random text. <br /> Lorem ipsum
                 </p>
@@ -55,7 +55,7 @@ const About = () => {
               className="border-[2px] border-pastel2 w-[45%] h-[190px]  rounded-2xl max-w-[348px] 2xl:max-w-[400px] 2xl:h-[200px]"
             >
               <article className="font-text3 text-balance flex flex-col pl-3 pt-2">
-                <h6 className="text-lg font-medium md:text-xl text-blue-600">Computer</h6>
+                <h6 className="text-lg font-medium md:text-xl text-primary">Computer</h6>
                 <p className="text-sm mt-1   md:text-base">
                   Some random text. <br /> Lorem ipsum
                 </p>
@@ -69,14 +69,25 @@ const About = () => {
 
         {/* El último artículo toma el espacio restante */}
         <article className=" w-full z-50 text-balance flex flex-col justify-center items-center relative flex-grow px-4">
-          <h5 className="font-title2 text-4xl font-medium z-50  text-center leading lg:text-4xl 2xl:text-6xl text-pastel">
-            Lorem Impsum dolor sit amet
+          <h5 className="font-title2 text-4xl font-medium z-50  text-center leading lg:text-4xl 2xl:text-6xl text-black">
+          ¿Por qué elegir Infinix Service?
           </h5>
           <p className="font-title  text-sm font-medium text-center max-w-[450px] mt-4 lg:text-base lg:mt-6 lg:max-w-[550px] 2xl:text-lg 2xl:max-w-[1000px] 2xl:mt-8 text-zinc-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur aperiam maiores nemo. Ratione explicabo velit eius
-            aliquid quaerat quasi quidem delectus totam in blanditiis dolor,
-            fuga cumque quod nisi architecto!
+          Con un servicio técnico especializado y confiable, garantizamos reparaciones precisas y duraderas. Desde simples ajustes hasta las reparaciones más complejas, nos aseguramos de brindarte una experiencia excepcional en todo momento.
+          La combinación de rapidez, calidad y tecnología de vanguardia es lo que nos distingue en el sector, asegurando que cada cliente reciba un servicio hecho a medida.
+          
+   {/*   nuestro equipo está listo para ofrecerte un servicio de calidad y confianza. 
+          
+      Nuestra misión es mantener tu dispositivo Infinix funcionando como nuevo, utilizando solo piezas originales y garantizando cada reparación. 
+     
+      En <strong>Infinix Service</strong>, entendemos que los dispositivos móviles son una parte esencial de tu vida diaria. 
+      Ya sea para el trabajo, el entretenimiento o la comunicación, tu smartphone Infinix es mucho más que un dispositivo; es una herramienta indispensable. 
+      Por eso, nuestro servicio técnico está diseñado para ofrecer soluciones rápidas y eficientes, con el más alto estándar de calidad.
+      Nos especializamos en una amplia gama de reparaciones: desde cambios de pantalla hasta soluciones más complejas como la reparación de placas y diagnósticos avanzados. 
+      Nuestro equipo técnico trabaja con tecnología de punta para identificar y resolver cualquier problema, asegurando que cada reparación mantenga la integridad de tu dispositivo.
+      Utilizamos exclusivamente repuestos originales de Infinix para garantizar una durabilidad óptima y la mejor experiencia posible para nuestros clientes.
+     
+       */}
           </p>
         </article>
       </section>
