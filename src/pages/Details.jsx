@@ -20,22 +20,7 @@ const Details = () => {
     { icon: icon6, text: "Solución de cortocircuitos en placa" },
     { icon: icon9, text: "Actualización de sistema Android" },
   ];
-  /* 
-REPARACION AURICULAR
-REPARACION ALTAVOZ
-CAMBIO DE FLEX INTERPLACA
-CAMBIO DE FLEX POWER ENCENDIDO
-CAMBIO PLACA DE PIN DE CARGA
-REPARACION CORTOS EN PLACA
-CAMBIO DE TAPAS TRASERAS
-REPARACION SISTEMA OPERATIVO
-CUENTA GOOGLE
-REPARACION EQUIPO MOJADO
-CAMBIO DE CAMARAS PRINCIPAL Y FRONTAL
-ACTUALIZACIONES ANDROID
-CAMBIOS DE BATERIA
-REPARACION SENSOR DE PROXIMIDAD
-PROBLEMAS DE ANTENA/SEÑAL */
+
   return (
     <>
       <section
@@ -62,8 +47,15 @@ PROBLEMAS DE ANTENA/SEÑAL */
 
       <section
         id="brand-section"
-        className="w-full h-screen flex flex-col z-50  text-balance py-4 2xl:py-6"
-      ></section>
+        className="w-full h-screen flex flex-col z-50  text-balance px-4"
+      >
+        <article className="flex flex-col items-start mt-6 z-50 w-[90%]">
+        <h6 className="text-4xl text-primary font-title2 font-semibold">Cuidamos lo que te conecta</h6>
+       <div className="w-full h-[2px] bg-zinc-200 mt-3"></div>
+        <p className="text-sm mt-4 text-zinc-400 font-title2 font-medium">En <strong>Infinix Service</strong>, entendemos que los dispositivos móviles son una parte esencial de tu vida diaria. 
+        Ya sea para el trabajo, el entretenimiento o la comunicación, tu smartphone Infinix es mucho más que un dispositivo; es una herramienta indispensable. Por eso, te ofrecemos un servicio técnico ágil y eficiente, con la tranquilidad de que tu dispositivo está en buenas manos.</p>
+        </article>
+      </section>
     </>
   );
 };
