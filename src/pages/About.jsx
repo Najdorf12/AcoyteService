@@ -13,7 +13,7 @@ const About = () => {
         id="second_section"
         className="w-full h-screen  font-title overflow-hidden relative flex flex-col justify-between"
       >
-        <div className=" z-50 flex gap-2 flex-col justify-center items-center pt-16 py-1 lg:pt-2 xl:pt-12">
+        <div className=" z-50 flex gap-2 flex-col justify-center items-center  ">
           <div
             id="box-glass2"
             className="border-[2px] border-pastel2 flex w-[91%] h-[180px] z-50 rounded-2xl md:h-[200px] max-w-[700px] 2xl:max-w-[800px] 2xl:h-[200px]  md:justify-between"
@@ -36,7 +36,7 @@ const About = () => {
             </figure>
           </div>
 
-          <section className="flex w-full justify-center gap-2 z-50">
+          <section className="flex w-full justify-center gap-2 z-50 ">
             <div
               id="box-glass2"
               className="border-[2px] border-pastel2 w-[45%] h-[200px] rounded-2xl max-w-[348px] 2xl:max-w-[400px] 2xl:h-[200px]"
@@ -60,7 +60,7 @@ const About = () => {
 
             <div
               id="box-glass2"
-              className="border-[2px] border-pastel2 w-[45%] h-[200px]  rounded-2xl max-w-[348px] 2xl:max-w-[400px] 2xl:h-[200px]"
+              className="border-[2px] border-pastel2 w-[45%] h-[200px]  rounded-2xl max-w-[348px] 2xl:max-w-[400px] 2xl:h-[200px] "
             >
               <article className="font-text3 text-balance flex flex-col pl-3 pt-2">
                 <h6 className="text-lg font-medium md:text-xl text-primary">

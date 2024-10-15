@@ -11,10 +11,9 @@ const Contact = () => {
             >
               CONTACTO
             </h2>
-
             <p
               style={{ animation: "appear 3s ease-out" }}
-              className="text-zinc-300 mt-4 px-3 text-sm  font-title  text-center text-balance xl:text-base  xl:max-w-[600px] 2xl:text-lg 2xl:max-w-[700px]"
+              className="text-zinc-300 mt-4  text-sm  font-title  text-center text-balance xl:text-base  xl:max-w-[600px] 2xl:text-lg 2xl:max-w-[700px]"
             >
               Elige Infinix Service para una experiencia donde la tecnología, la eficiencia y la satisfacción del cliente se combinan.
             </p>
@@ -27,14 +26,14 @@ const Contact = () => {
           <div
             /* id="box-glass" */
             style={{ animation: "slideInFromLeft 1s ease-out" }}
-            class="max-w-md w-full rounded-2xl  overflow-hidden py-6 space-y-4"
+            class="max-w-md w-[90%] rounded-2xl  overflow-hidden py-6 space-y-4"
           >
             <form method="POST" action="#" className="space-y-8 px-6   lg:mt-2">
               <div className="relative">
                 <input
                   autoComplete="off"
                   placeholder="john@example.com"
-                  className="peer h-10 w-full border-b-2 border-primary font-title text-white bg-transparent placeholder-transparent focus:outline-none focus:border-whiteCustom  2xl:mt-6"
+                  className="peer h-10 w-full border-b-2 border-primary font-title text-zinc-100 bg-transparent placeholder-transparent focus:outline-none focus:border-whiteCustom  2xl:mt-6"
                   required=""
                   id="email"
                   name="email"
@@ -51,12 +50,12 @@ const Contact = () => {
                 <input
                   autoComplete="off"
                   placeholder="Password"
-                  className="peer h-10 font-title w-full border-b-2 border-primary text-white  bg-transparent placeholder-transparent focus:outline-none focus:border-whiteCustom"
+                  className="peer h-10 font-title w-full border-b-2 border-primary text-zinc-100  bg-transparent placeholder-transparent focus:outline-none focus:border-whiteCustom"
                   required=""
                   id="password"
                   name="password"
                 />
-                <label className="absolute left-0 -top-3.5 text-gray-800 text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-white peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-zinc-300 peer-focus:text-base font-normal  ">
+                <label className="absolute left-0 -top-3.5 text-gray-800 text-sm transition-all peer-placeholder-shown:text-lg peer-placeholder-shown:text-zinc-100 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-zinc-300 peer-focus:text-base font-normal  ">
                   WhatsApp
                 </label>
               </div>
@@ -65,7 +64,7 @@ const Contact = () => {
                 id="box-glass"
                 placeholder="Escribe tu consulta aquí ..."
                 name="textarea"
-                className="border-[2px] border-whiteCustom text-white rounded-2xl w-full h-[150px] placeholder:text-zinc-400 p-2 bg-transparent  focus:border-primary focus:outline-none"
+                className="border-[2px] border-whiteCustom text-white rounded-2xl w-full h-[150px] placeholder:text-zinc-100 p-2 bg-transparent  focus:border-primary focus:outline-none"
               ></textarea>
               <button
                   id="box-glass" 
