@@ -49,7 +49,7 @@ const Details = () => {
         id="brand-section"
         className="w-full h-screen flex flex-col z-50  text-balance px-4"
       >
-        <article className="flex flex-col items-start mt-6 z-50 w-[90%]">
+        <article className="flex flex-col items-start mt-8 z-50 w-[90%]">
         <h6 className="text-4xl text-primary font-title2 font-semibold">Cuidamos lo que te conecta</h6>
        <div className="w-full h-[2px] bg-zinc-200 mt-3"></div>
         <p className="text-sm mt-4 text-zinc-400 font-title2 font-medium">En <strong>Infinix Service</strong>, entendemos que los dispositivos móviles son una parte esencial de tu vida diaria. 
