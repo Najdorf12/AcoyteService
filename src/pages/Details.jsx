@@ -25,18 +25,18 @@ const Details = () => {
     <>
       <section
         id="third-section"
-        className="w-full bg-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:items-start "
+        className="w-full bg-zinc-800 h-screen text-zinc-600 text-sm flex flex-col justify-center gap-3 items-center lg:items-start lg:h-auto lg:py-3 xl:py-4 2xl:h-screen 2xl:py-0 "
       >
         {iconsTech?.map((icon, i) => (
           <div
             key={i}
-            className="flex justify-center items-center z-50 relative  w-full max-w-[500px] lg:max-w-[600px]  2xl:max-w-[700px] lg:ml-[5%] "
+            className="flex justify-center items-center z-50 relative  w-full max-w-[500px] lg:max-w-[600px]  2xl:max-w-[700px] lg:ml-[5%]"
           >
             <figure className="w-20  h-full flex justify-center items-center  to-trasparent p-3 rounded-2xl rounded-r-none max-w-[200px]  shadow-md shadow-zinc-900 bg-gradient-to-tl from-primary via-zinc-800 to-trasparent border border-zinc-700 border-r-0">
               <img className="w-full" src={icon?.icon} alt="icon" />
             </figure>
-            <ul className="font-title h-full text-base text-balance flex flex-col justify-center  shadow-md shadow-zinc-900 pl-3 pr-4 py-3 w-[70%] rounded-2xl rounded-l-none  text-zinc-100 gap-1 xl:text-lg xl:py-3 bg-gradient-to-tr from-primary via-zinc-800 to-trasparent border border-zinc-700">
-              <li className="flex items-start gap-2   lg:max-w-fit xl:gap-2">
+            <ul className="font-title  text-base text-balance flex flex-col justify-center  shadow-md shadow-zinc-900 pl-3 pr-4 py-3 w-[70%] rounded-2xl rounded-l-none  text-zinc-100 gap-1 xl:text-lg xl:py-3 bg-gradient-to-tr from-primary via-zinc-800 h-full xl:h-20 to-trasparent border border-zinc-700 ">
+              <li className="flex items-start gap-2  h-max lg:max-w-fit xl:gap-2">
                 <i className="text-primary bx bxs-doughnut-chart -mt-[2px] lg:mt-0 text-lg xl:text-lg 2xl:text-xl"></i>{" "}
                 {icon?.text}
               </li>
@@ -47,13 +47,21 @@ const Details = () => {
 
       <section
         id="brand-section"
-        className="w-full h-screen flex flex-col z-50  text-balance px-4"
+        className="w-full h-screen flex flex-col z-50  text-balance px-4 xl:pl-12 xl:pt-12 2xl:pl-20"
       >
-        <article className="flex flex-col items-start mt-8 z-50 w-[90%]">
-        <h6 className="text-4xl text-primary font-title2 font-semibold">Cuidamos lo que te conecta</h6>
-       <div className="w-full h-[2px] bg-zinc-200 mt-3"></div>
-        <p className="text-sm mt-4 text-zinc-400 font-title2 font-medium">En <strong>Infinix Service</strong>, entendemos que los dispositivos móviles son una parte esencial de tu vida diaria. 
-        Ya sea para el trabajo, el entretenimiento o la comunicación, tu smartphone Infinix es mucho más que un dispositivo; es una herramienta indispensable. Por eso, te ofrecemos un servicio técnico ágil y eficiente, con la tranquilidad de que tu dispositivo está en buenas manos.</p>
+        <article className="flex flex-col items-start mt-8 z-50 w-[90%] max-w-[500px] xl:max-w-[600px] 2xl:max-w-[800px]">
+          <h6 className="text-4xl text-primary font-title2 font-semibold md:text-5xl xl:text-6xl 2xl:text-8xl">
+            Cuidamos lo que te conecta
+          </h6>
+          <div className="w-full h-[2px] bg-zinc-200 mt-3 md:mt-4 2xl:mt-6"></div>
+          <p className="text-sm mt-4 text-zinc-400 font-title2 font-medium md:text-base md:mt-5 xl:text-base 2xl:text-lg 2xl:mt-6">
+            En <strong>Infinix Service</strong>, entendemos que los dispositivos
+            móviles son una parte esencial de tu vida diaria. Ya sea para el
+            trabajo, el entretenimiento o la comunicación, tu smartphone Infinix
+            es mucho más que un dispositivo; es una herramienta indispensable.
+            Por eso, te ofrecemos un servicio técnico ágil y eficiente, con la
+            tranquilidad de que tu dispositivo está en buenas manos.
+          </p>
         </article>
       </section>
     </>

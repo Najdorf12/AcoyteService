@@ -90,8 +90,8 @@ const About = () => {
             <h5 className="font-title2 text-4xl font-medium z-50  text-center leading lg:text-4xl 2xl:text-6xl text-zinc-900 ">
               ¿Por qué elegir Infinix Service?
             </h5>
-            <div className="w-[90%] h-[2px] bg-primary mt-2 self-center"></div>
-            <p className="font-title px-3 text-balance text-sm font-semibold text-center max-w-[450px] mt-4 lg:text-base lg:mt-6 lg:max-w-[550px] 2xl:text-lg 2xl:max-w-[1000px] 2xl:mt-8 text-zinc-700">
+            <div className="w-[90%] h-[2px] bg-primary mt-2 self-center lg:w-[80%]"></div>
+            <p className="font-title px-3 text-balance text-sm font-semibold text-center max-w-[450px] mt-4 lg:text-base lg:mt-3 lg:max-w-[850px] 2xl:text-lg 2xl:max-w-[1200px] 2xl:mt-8 text-zinc-700">
               Con un servicio técnico especializado y confiable, garantizamos
               reparaciones precisas y duraderas. Desde simples ajustes hasta las
               reparaciones más complejas, nos aseguramos de brindarte una
@@ -99,7 +99,17 @@ const About = () => {
               rapidez, calidad y tecnología de vanguardia es lo que nos
               distingue en el sector, asegurando que cada cliente reciba un
               servicio hecho a medida.
-              {/*   nuestro equipo está listo para ofrecerte un servicio de calidad y confianza. 
+             
+            </p>
+          </div>
+        </article>
+      </section>
+    </>
+  );
+};
+
+export default About;
+ {/*   nuestro equipo está listo para ofrecerte un servicio de calidad y confianza. 
           
       Nuestra misión es mantener tu dispositivo Infinix funcionando como nuevo, utilizando solo piezas originales y garantizando cada reparación. 
      
@@ -111,12 +121,3 @@ const About = () => {
       Utilizamos exclusivamente repuestos originales de Infinix para garantizar una durabilidad óptima y la mejor experiencia posible para nuestros clientes.
      
        */}
-            </p>
-          </div>
-        </article>
-      </section>
-    </>
-  );
-};
-
-export default About;
