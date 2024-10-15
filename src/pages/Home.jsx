@@ -20,10 +20,10 @@ const Home = () => {
           </button>
         </nav>
         <article className="z-50 px-3 flex flex-col text-balance text-center justify-center items-center mt-16">
-          <h1 className="text-6xl  font-title2 font-bold text-zinc-800 z-50 leading-[2.9rem] xl:text-8xl 2xl:text-9xl">
+          <h1 className="text-6xl  font-title2 font-bold text-zinc-800 z-50 leading-[2.3rem] xl:text-8xl 2xl:text-9xl">
             <span className="text-[rgb(146,195,73)] text-8xl">INFINIX</span>  SERVICE
           </h1>
-          <h5 className="text-2xl mt-3  font-text3 text-zinc-500 z-50 max-w-[390px] lg:text-3xl xl:text-4xl xl:max-w-[500px] 2xl:text-5xl 2xl:max-w-[600px]">
+          <h5 className="text-2xl mt-3  font-text3 text-zinc-400 z-50 max-w-[390px] lg:text-3xl xl:text-4xl xl:max-w-[500px] 2xl:text-5xl 2xl:max-w-[600px]">
             The future is now
           </h5>
         </article>

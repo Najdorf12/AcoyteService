@@ -18,7 +18,7 @@ const About = () => {
             id="box-glass2"
             className="border-[2px] border-pastel2 flex w-[91%] h-[180px] z-50 rounded-2xl md:h-[200px] max-w-[700px] 2xl:max-w-[800px] 2xl:h-[200px]  md:justify-between"
           >
-            <article className="font-text3 text-balance flex flex-col pl-3 pt-2 relative text-zinc-800">
+            <article className="font-text3 text-balance flex flex-col pl-3 pt-2 relative text-zinc-700">
               <h6 className="text-lg font-medium md:text-xl text-primary">
                 Soluciones rápidas y eficientes
               </h6>
@@ -45,7 +45,7 @@ const About = () => {
                 <h6 className="text-lg font-medium md:text-xl text-primary">
                   Soporte 24/7
                 </h6>
-                <p className="text-sm mt-1 text-zinc-800 md:text-base pr-3 ">
+                <p className="text-sm mt-1 text-zinc-700 md:text-base pr-3 ">
                   Equipo listo para asistirte cuando lo necesites.
                 </p>
               </article>
@@ -66,7 +66,7 @@ const About = () => {
                 <h6 className="text-lg font-medium md:text-xl text-primary">
                   Garantía
                 </h6>
-                <p className="text-sm mt-1 text-zinc-800  md:text-base">
+                <p className="text-sm mt-1 text-zinc-700  md:text-base">
                   Nos especializamos en una amplia gama de reparaciones
                 </p>
               </article>
@@ -86,10 +86,11 @@ const About = () => {
           
           className=" w-[95%] self-center z-50 text-balance flex flex-col justify-center items-center relative flex-grow "
         >
-          <div id="box-glass3" className="py-5 rounded-2xl border-[2px] border-pastel2">
-            <h5 className="font-title2 text-4xl font-medium z-50  text-center leading lg:text-4xl 2xl:text-6xl text-zinc-500 ">
+          <div id="box-glass3" className="py-5 flex flex-col items-center rounded-2xl border-[2px] border-pastel2">
+            <h5 className="font-title2 text-4xl font-medium z-50  text-center leading lg:text-4xl 2xl:text-6xl text-zinc-900 ">
               ¿Por qué elegir Infinix Service?
             </h5>
+            <div className="w-[90%] h-[2px] bg-primary mt-2 self-center"></div>
             <p className="font-title px-3 text-balance text-sm font-semibold text-center max-w-[450px] mt-4 lg:text-base lg:mt-6 lg:max-w-[550px] 2xl:text-lg 2xl:max-w-[1000px] 2xl:mt-8 text-zinc-700">
               Con un servicio técnico especializado y confiable, garantizamos
               reparaciones precisas y duraderas. Desde simples ajustes hasta las
